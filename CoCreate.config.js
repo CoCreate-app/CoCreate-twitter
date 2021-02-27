@@ -9,23 +9,23 @@ module.exports = {
     sources: [{
             path: "./docs/index.html",
             collection: "files",
-            document_id: "",
+            document_id: "603abe9424dfaa1830fd6bf9",
             key: "html",
             data:{
-                name: "boilerplate Doc",
+                name: "Twitter Doc",
             }
         },
     ],
    
     crud: [{
             collection: "routes",
-            document_id: "",
+            document_id: "603abe9424dfaa1830fd6bf8",
             data:{
                 collection: "files",
-                document_id: "",
+                document_id: "603abe9424dfaa1830fd6bf9",
                 name: "html",
                 domains: ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
-                route: "/docs/boilerplate",
+                route: "/docs/twitter",
             }
         }
     ],
