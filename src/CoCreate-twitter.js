@@ -86,7 +86,7 @@ const CoCreateTwitter = {
 };
 
 
-CoCreate.api.init({
+api.init({
 	name: CoCreateTwitter.id, 
 	module:	CoCreateTwitter,
 });
