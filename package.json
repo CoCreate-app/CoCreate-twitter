@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/twitter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple twitter component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
   "keywords": [
     "twitter",
@@ -35,7 +35,9 @@
   },
   "author": "CoCreate LLC",
   "license": "MIT",
-  "bugs": { "url": "https://github.com/CoCreate-app/CoCreate-twitter/issues" },
+  "bugs": {
+    "url": "https://github.com/CoCreate-app/CoCreate-twitter/issues"
+  },
   "homepage": "https://cocreate.app/docs/twitter",
   "funding": {
     "type": "GitHub Sponsors ❤",
