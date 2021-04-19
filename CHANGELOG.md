@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.0...v1.1.1) (2021-04-19)
+
+
+### Bug Fixes
+
+* ci and build process ([1e1bc86](https://github.com/CoCreate-app/CoCreate-twitter/commit/1e1bc86b766973a4a4a23d363103a6de7167149d))
+* npm publish and cdn deployment ([b353567](https://github.com/CoCreate-app/CoCreate-twitter/commit/b35356740402a7f64f1b3359962427f0d330f52c))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.0.0...v1.1.0) (2021-03-30)
 
 
