@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.1...v1.1.2) (2021-04-21)
+
+
+### Bug Fixes
+
+* One package for server and client ([4ce7db6](https://github.com/CoCreate-app/CoCreate-twitter/commit/4ce7db6ed095a283511822010fb4368b15b6bd74))
+
 ## [1.1.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.0...v1.1.1) (2021-04-19)
 
 
