@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.2...v1.1.3) (2021-04-23)
+
+
+### Bug Fixes
+
+* readme and documentation. Removed securitykeys ([3b69395](https://github.com/CoCreate-app/CoCreate-twitter/commit/3b69395855a28c88c58145e4963ec6f49bb87658))
+
 ## [1.1.2](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.1...v1.1.2) (2021-04-21)
 
 
