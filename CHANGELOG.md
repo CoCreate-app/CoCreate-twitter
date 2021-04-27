@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.4...v1.1.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([097147b](https://github.com/CoCreate-app/CoCreate-twitter/commit/097147b66bad2a08766dde084f612104b7c439f3))
+
 ## [1.1.4](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.3...v1.1.4) (2021-04-27)
 
 
