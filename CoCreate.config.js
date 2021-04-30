@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "603abe9424dfaa1830fd6bf9",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "twitter Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
