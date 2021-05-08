@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.5...v1.1.6) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([75271bf](https://github.com/CoCreate-app/CoCreate-twitter/commit/75271bfb44b4d7fe5d70ad7b0aa2483c14816471))
+
 ## [1.1.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.4...v1.1.5) (2021-04-27)
 
 
