@@ -62,6 +62,7 @@
   "dependencies": {
     "@cocreate/api": "^1.0.7",
     "@cocreate/docs": "^1.0.3",
+    "axios": "^0.21.1",
     "twit": "^2.2.11"
   }
 }
