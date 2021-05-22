@@ -19,10 +19,6 @@ For a complete guide and working demo refer to the [doumentation](https://cocrea
 <script src="https://cdn.cocreate.app/twitter/latest/CoCreate-twitter.min.js"></script>
 ```
 
-```html
-<script src="https://cdn.cocreate.app/twitter/latest/CoCreate-twitter.min.css"></script>
-```
-
 ## NPM
 
 ```shell
