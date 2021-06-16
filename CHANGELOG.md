@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.7...v1.1.8) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([a2991cc](https://github.com/CoCreate-app/CoCreate-twitter/commit/a2991cc3b53e8cf3a1761b430386338a8aea985b))
+
 ## [1.1.7](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.6...v1.1.7) (2021-05-22)
 
 
