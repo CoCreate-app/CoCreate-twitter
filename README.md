@@ -2,10 +2,12 @@
 
 A simple twitter component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/twitter)
 
-![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-twitter/dist/CoCreate-twitter.min.js?label=minified%20size&style=for-the-badge)
-![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-twitter?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/CoCreate-app/CoCreate-twitter?style=for-the-badge)
-![GitHub labels](https://img.shields.io/github/labels/CoCreate-app/CoCreate-twitter/help%20wanted?style=for-the-badge)
+![minified](https://img.badgesize.io/https://cdn.cocreate.app/twitter/latest/CoCreate-twitter.min.js?style=flat-square&label=minified&color=orange)
+![gzip](https://img.badgesize.io/https://cdn.cocreate.app/twitter/latest/CoCreate-twitter.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
+![brotli](https://img.badgesize.io/https://cdn.cocreate.app/twitter/latest/CoCreate-twitter.min.js?compression=brotli&style=flat-square&label=brotli)
+![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-twitter?style=flat-square)
+![License](https://img.shields.io/github/license/CoCreate-app/CoCreate-twitter?style=flat-square)
+![Hiring](https://img.shields.io/static/v1?style=flat-square&label=&message=Hiring&color=blueviolet)
 
 ![CoCreate-twitter](https://cdn.cocreate.app/docs/CoCreate-twitter.gif)
 
@@ -19,10 +21,20 @@ For a complete guide and working demo refer to the [doumentation](https://cocrea
 <script src="https://cdn.cocreate.app/twitter/latest/CoCreate-twitter.min.js"></script>
 ```
 
+```html
+<script src="https://cdn.cocreate.app/twitter/latest/CoCreate-twitter.min.css"></script>
+```
+
 ## NPM
 
 ```shell
 $ npm i @cocreate/twitter
+```
+
+## yarn
+
+```shell
+$ yarn install @cocreate/twitter
 ```
 
 # Table of Contents
@@ -68,4 +80,4 @@ We appreciate your continued support, thank you!
 
 # License
 
-[Server Side Public License (SSPL)](https://github.com/CoCreate-app/CoCreate-twitter/blob/master/LICENSE)
+[The MIT License (MIT)](https://github.com/CoCreate-app/CoCreate-twitter/blob/master/LICENSE)
