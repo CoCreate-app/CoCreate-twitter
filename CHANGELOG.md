@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.11...v1.1.12) (2021-06-30)
+
+
+### Bug Fixes
+
+* automated and manual workflows ([65c0509](https://github.com/CoCreate-app/CoCreate-twitter/commit/65c05092dd8b0a1b02eaee6983911b09d586c48a))
+
 ## [1.1.11](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.10...v1.1.11) (2021-06-25)
 
 
