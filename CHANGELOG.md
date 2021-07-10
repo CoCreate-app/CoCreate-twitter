@@ -1,3 +1,10 @@
+## [1.1.14](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.13...v1.1.14) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([a5c7bc2](https://github.com/CoCreate-app/CoCreate-twitter/commit/a5c7bc293e685105d9b06103e0f1b1339a06650d))
+
 ## [1.1.13](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.12...v1.1.13) (2021-06-30)
 
 
