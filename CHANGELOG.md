@@ -1,3 +1,11 @@
+## [1.1.15](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.14...v1.1.15) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([4fec4b8](https://github.com/CoCreate-app/CoCreate-twitter/commit/4fec4b8cc00e695c1f7cfd2c3a72ea646cfe6881))
+* remove yarn.lock ([7cf714e](https://github.com/CoCreate-app/CoCreate-twitter/commit/7cf714ee289ece65520cd779aa89855909ddff6c))
+
 ## [1.1.14](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.13...v1.1.14) (2021-07-10)
 
 
