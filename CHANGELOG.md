@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.17...v1.2.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([43ad045](https://github.com/CoCreate-app/CoCreate-twitter/commit/43ad0459056390c24d7215cd7c815ad05db7ff94))
+
 ## [1.1.17](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.1.16...v1.1.17) (2021-07-17)
 
 
