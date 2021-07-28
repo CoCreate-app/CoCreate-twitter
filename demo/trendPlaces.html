@@ -32,15 +32,15 @@
 
         ID: <input data-twitter="getTrendsPlace.id" value="1">
         <br/>
-        <button class="btnsubmit" data-actions='getTrendsPlace'>Twitter Trends Place List </button>
+        <button class="btnsubmit" actions='getTrendsPlace'>Twitter Trends Place List </button>
     </form>
 
-    <div data-template_id="getTrendsPlace">
+    <div template_id="getTrendsPlace">
         <h4>Twitter Trends Place List :- </h4>
-        <div class="template margin:10px;"   data-value="{{data.id}}" data-render_array="data[0].trends">
+        <div class="template margin:10px;"   data-value="{{data.id}}" render-array="data[0].trends">
             <div style="display:flex ; align-items:center; width:100% ;flex-wrap:wrap" >
                 <p class="margin-right:10px" value="{{data.name}}" />
-                <!--<div class=" margin:10px;"  data-render_array="data.trends">-->
+                <!--<div class=" margin:10px;"  render-array="data.trends">-->
                 <!--    trends  :<p class="margin-right:10px" value="{{data.name}}" />-->
                 <!--</div>-->
                 

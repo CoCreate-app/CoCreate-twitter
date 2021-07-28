@@ -33,12 +33,12 @@
         Screen Name: <input data-twitter="getUserTimeline.screen_name" value="noradio">
         User id: <input data-twitter="getUserTimeline.user_id" value="12345">
         <br/>
-        <button class="btnsubmit" data-actions='getUserTimeline'>Twitter User Timeline</button>
+        <button class="btnsubmit" actions='getUserTimeline'>Twitter User Timeline</button>
     </form>
 
-    <div data-template_id="getUserTimeline">
+    <div template_id="getUserTimeline">
         <h4>Twitter User Timeline :- </h4>
-        <div class="template margin:10px " data-value="{{data.id}}" data-render_array="data">
+        <div class="template margin:10px " data-value="{{data.id}}" render-array="data">
               <p class="margin-right:10px" value="{{data.text}}"></p>
                  <p class="margin-right:10px" value="created_at : {{data.created_at}}"></p>
                 retweeted_status.text : <p class="margin-right:10px" value="{{data.retweeted_status.text}}"></p>
