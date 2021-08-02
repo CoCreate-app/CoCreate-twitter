@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.1...v1.2.2) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([bf81cb2](https://github.com/CoCreate-app/CoCreate-twitter/commit/bf81cb2a596bbc588fbed7103c9991ac1c071a13))
+* update data-fullscreen to fullscreen ([0f8572d](https://github.com/CoCreate-app/CoCreate-twitter/commit/0f8572dc1ee711de7baa99b07a4aef2c478f4ced))
+
 ## [1.2.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.0...v1.2.1) (2021-07-28)
 
 
