@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.5...v1.2.6) (2021-08-22)
+
+
+### Bug Fixes
+
+* removed data- from main-content, clone, filter-value_type ([0f60be1](https://github.com/CoCreate-app/CoCreate-twitter/commit/0f60be1b19f1b87a1667bd375ab5fd60dd08d093))
+
 ## [1.2.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.4...v1.2.5) (2021-08-22)
 
 
