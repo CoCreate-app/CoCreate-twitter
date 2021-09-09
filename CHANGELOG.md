@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.11...v1.2.12) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([1df1a10](https://github.com/CoCreate-app/CoCreate-twitter/commit/1df1a105ddbc5240cc4ee2caf52b4aac48c357f1))
+
 ## [1.2.11](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.10...v1.2.11) (2021-09-08)
 
 
