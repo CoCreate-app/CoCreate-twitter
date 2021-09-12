@@ -1,3 +1,10 @@
+## [1.2.16](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.15...v1.2.16) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([731c2c2](https://github.com/CoCreate-app/CoCreate-twitter/commit/731c2c2339cbc5d5ee6f7cf1bb8a24da77119ab1))
+
 ## [1.2.15](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.14...v1.2.15) (2021-09-09)
 
 
