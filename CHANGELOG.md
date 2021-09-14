@@ -1,3 +1,10 @@
+## [1.2.18](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.17...v1.2.18) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([1c4aad5](https://github.com/CoCreate-app/CoCreate-twitter/commit/1c4aad5c0d7cc54fa8c273b81b10c158f9168ae4))
+
 ## [1.2.17](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.16...v1.2.17) (2021-09-13)
 
 
