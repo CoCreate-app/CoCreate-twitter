@@ -1,3 +1,10 @@
+## [1.2.32](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.31...v1.2.32) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([164a874](https://github.com/CoCreate-app/CoCreate-twitter/commit/164a87453f40e9275a283d00b84e911925b38fb9))
+
 ## [1.2.31](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.30...v1.2.31) (2021-10-15)
 
 
