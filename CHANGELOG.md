@@ -1,3 +1,10 @@
+## [1.2.40](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.39...v1.2.40) (2021-11-11)
+
+
+### Bug Fixes
+
+* update readme ([284f332](https://github.com/CoCreate-app/CoCreate-twitter/commit/284f33260177166fc0071bade75caebe742cfd64))
+
 ## [1.2.39](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.38...v1.2.39) (2021-11-06)
 
 
