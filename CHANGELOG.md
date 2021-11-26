@@ -1,3 +1,10 @@
+## [1.2.47](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.46...v1.2.47) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([8cf4ba0](https://github.com/CoCreate-app/CoCreate-twitter/commit/8cf4ba0c49f53e89f9f8b2ebbce1ac435589b9d6))
+
 ## [1.2.46](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.45...v1.2.46) (2021-11-26)
 
 
