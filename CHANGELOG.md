@@ -1,3 +1,10 @@
+## [1.2.48](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.47...v1.2.48) (2021-11-27)
+
+
+### Bug Fixes
+
+* update docs api and cocreateJS script ([b47a99b](https://github.com/CoCreate-app/CoCreate-twitter/commit/b47a99ba22acd9478aea73d7723094801cdc8cae))
+
 ## [1.2.47](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.46...v1.2.47) (2021-11-26)
 
 
