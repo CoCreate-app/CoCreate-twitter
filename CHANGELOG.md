@@ -1,3 +1,10 @@
+## [1.2.54](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.53...v1.2.54) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([3898558](https://github.com/CoCreate-app/CoCreate-twitter/commit/3898558155856982e77cc2b6166e854419a44b74))
+
 ## [1.2.53](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.52...v1.2.53) (2022-01-01)
 
 
