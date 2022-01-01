@@ -1,3 +1,10 @@
+## [1.2.53](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.52...v1.2.53) (2022-01-01)
+
+
+### Bug Fixes
+
+* removed data- from attributes ([8d52e8b](https://github.com/CoCreate-app/CoCreate-twitter/commit/8d52e8b0a737fa0b6d34bba846222015f271bd31))
+
 ## [1.2.52](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.51...v1.2.52) (2021-12-15)
 
 
