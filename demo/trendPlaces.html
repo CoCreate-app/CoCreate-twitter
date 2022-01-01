@@ -24,20 +24,20 @@
     <h1>Twitter Trends Place List : -</h1>
     
     <form>
-        consumer_key: <input data-twitter="getTrendsPlace.consumer_key" value="hOugAN32rGsFldgxqYyJIJDTH">
-        consumer_secret: <input data-twitter="getTrendsPlace.consumer_secret" value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1">
-        access_token : <input data-twitter="getTrendsPlace.access_token" value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq">
-        access_token_secret : <input data-twitter="getTrendsPlace.access_token_secret" value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw">
+        consumer_key: <input twitter="getTrendsPlace.consumer_key" value="hOugAN32rGsFldgxqYyJIJDTH">
+        consumer_secret: <input twitter="getTrendsPlace.consumer_secret" value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1">
+        access_token : <input twitter="getTrendsPlace.access_token" value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq">
+        access_token_secret : <input twitter="getTrendsPlace.access_token_secret" value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw">
         <br/> <br/><br/>
 
-        ID: <input data-twitter="getTrendsPlace.id" value="1">
+        ID: <input twitter="getTrendsPlace.id" value="1">
         <br/>
         <button class="btnsubmit" actions='getTrendsPlace'>Twitter Trends Place List </button>
     </form>
 
     <div template_id="getTrendsPlace">
         <h4>Twitter Trends Place List :- </h4>
-        <div class="template margin:10px;"   data-value="{{data.id}}" render-array="data[0].trends">
+        <div class="template margin:10px;"   value="{{data.id}}" render-array="data[0].trends">
             <div style="display:flex ; align-items:center; width:100% ;flex-wrap:wrap" >
                 <p class="margin-right:10px" value="{{data.name}}" />
                 <!--<div class=" margin:10px;"  render-array="data.trends">-->

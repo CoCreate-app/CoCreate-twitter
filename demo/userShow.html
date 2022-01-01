@@ -25,21 +25,21 @@
     <h1>Twitter User Show : -</h1>
     
     <form>
-        consumer_key: <input data-twitter="getUsersShow.consumer_key" value="hOugAN32rGsFldgxqYyJIJDTH">
-        consumer_secret: <input data-twitter="getUsersShow.consumer_secret" value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1">
-        access_token : <input data-twitter="getUsersShow.access_token" value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq">
-        access_token_secret : <input data-twitter="getUsersShow.access_token_secret" value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw">
+        consumer_key: <input twitter="getUsersShow.consumer_key" value="hOugAN32rGsFldgxqYyJIJDTH">
+        consumer_secret: <input twitter="getUsersShow.consumer_secret" value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1">
+        access_token : <input twitter="getUsersShow.access_token" value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq">
+        access_token_secret : <input twitter="getUsersShow.access_token_secret" value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw">
         <br/> <br/><br/>
 
-        Screen Name: <input data-twitter="getUsersShow.screen_name" value="twitterdev">
-        User Id : <input data-twitter="getUsersShow.user_id" value="12345">
+        Screen Name: <input twitter="getUsersShow.screen_name" value="twitterdev">
+        User Id : <input twitter="getUsersShow.user_id" value="12345">
         <br/>
         <button class="btnsubmit"  actions='getUsersShow'>Twitter User Show</button>
     </form>
 
     <div template_id="getUsersShow">
         <h4>Twitter Search Users :- </h4>
-        <div class="template " data-value="{{data.id}}" >
+        <div class="template " value="{{data.id}}" >
             <div style="display:flex ; align-items:center; width:100% ;flex-wrap:wrap ">
                 <img class="margin-right:10px" src="{{data.profile_image_url_https}}" />
                 <h3 class="margin-right:10px" value="{{data.name}}">name></h3>
