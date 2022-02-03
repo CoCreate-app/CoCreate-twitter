@@ -1,3 +1,10 @@
+## [1.2.56](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.55...v1.2.56) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([3a54c57](https://github.com/CoCreate-app/CoCreate-twitter/commit/3a54c57aefabd2962a023f09ac000070e6be7004))
+
 ## [1.2.55](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.54...v1.2.55) (2022-02-01)
 
 
