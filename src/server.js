@@ -12,13 +12,13 @@ let client;
 class CoCreateDataTwitter {
     constructor(wsManager) {
         this.wsManager = wsManager;
-        this.module_id = "twitter";
+        this.moduleName = "twitter";
         this.init();
     }
 
     init() {
         if (this.wsManager) {
-            this.wsManager.on(this.module_id, (socket, data) => this.twitterOprations(socket, data));
+            this.wsManager.on(this.moduleName, (socket, data) => this.twitterOprations(socket, data));
         }
     }
 
@@ -95,7 +95,7 @@ class CoCreateDataTwitter {
                 'data': results.users,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
         } catch (error) {
             this.handleError(socket, type, error)
         }
@@ -111,7 +111,7 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
         } catch (error) {
             this.handleError(socket, type, error)
         }
@@ -127,7 +127,7 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
         } catch (error) {
             this.handleError(socket, type, error)
         }
@@ -143,7 +143,7 @@ class CoCreateDataTwitter {
                 'data': results.users,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
         } catch (error) {
             this.handleError(socket, type, error)
         }
@@ -161,7 +161,7 @@ class CoCreateDataTwitter {
                 'data': results.statuses,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
         } catch (error) {
             this.handleError(socket, type, error)
         }
@@ -177,7 +177,7 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
         } catch (error) {
             this.handleError(socket, type, error)
         }
@@ -193,7 +193,7 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
         } catch (error) {
             this.handleError(socket, type, error)
         }
@@ -210,7 +210,7 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
         } catch (error) {
             this.handleError(socket, type, error)
         }
@@ -226,7 +226,7 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
 
         } catch (error) {
             this.handleError(socket, type, error)
@@ -257,7 +257,7 @@ class CoCreateDataTwitter {
                 'data': results,
             };
             
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
 
         } catch (error) {
             this.handleError(socket, type, error)
@@ -270,7 +270,7 @@ class CoCreateDataTwitter {
             'object': 'error',
             'data': error.message || error,
         };
-        api.send_response(this.wsManager, socket, { type, response }, this.module_id);
+        api.send_response(this.wsManager, socket, { type, response }, this.moduleName);
     }
 
 }//end Class 
