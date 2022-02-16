@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.58...v1.3.0) (2022-02-16)
+
+
+### Features
+
+* define request and response functions, if functions are not deifne defualt functions exist that will request and render results. Reduced and improved code quality ([e41ca61](https://github.com/CoCreate-app/CoCreate-twitter/commit/e41ca61ca1e5ed9e4bcfe2a17b1909180b084730))
+
 ## [1.2.58](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.2.57...v1.2.58) (2022-02-10)
 
 
