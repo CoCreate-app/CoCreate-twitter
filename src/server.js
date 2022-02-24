@@ -18,70 +18,90 @@ class CoCreateDataTwitter {
 
     init() {
         if (this.wsManager) {
-            this.wsManager.on(this.moduleName, (socket, data) => this.twitterOprations(socket, data));
+            this.wsManager.on(this.moduleName, (socket, data) => this.sendTwitter(socket, data));
         }
     }
 
-    async twitterOprations(socket, data) {
-        const type = data['type'];
-        const params = data['data'];
-        
+    async sendTwitter(socket, data) {
+        let action = data['action'];
+        let params = data['data'];
+        let environment;
+        let twitter = false;
     
+        try {
+			let org = await api.getOrg(data, this.moduleName);
+			if (params.environment){
+				environment = params['environment'];
+				delete params['environment'];  
+			} else {
+			  	environment = org.apis[this.moduleName].environment;
+			}
+            const { consumer_key, consumer_secret, access_token, access_token_secret } = params;
+            twitter = new Twitter({ consumer_key, consumer_secret, access_token, access_token_secret });
+        }catch(e){
+            console.log(this.moduleName+" : Error Connect to api",e)
+            return false;
+        }
 
         try {
-
-            const { consumer_key, consumer_secret, access_token, access_token_secret } = params;
-            client = new Twitter({ consumer_key, consumer_secret, access_token, access_token_secret });
-
-            switch (type) {
-
+            let response
+            switch (action) {
                 case 'getFollowersList':
-                    this.getFollowersList(socket, type, params);
+                    response = this.getFollowersList(params);
                     break;
 
                 case 'getUsersShow':
-                    this.getUsersShow(socket, type, params);
+                    response = this.getUsersShow(params);
                     break;
 
                 case 'getSearchUser':
-                    this.getSearchUser(socket, type, params);
+                    response = this.getSearchUser(params);
                     break;
 
                 case 'getFriendsList':
-                    this.getFriendsList(socket, type, params);
+                    response = this.getFriendsList(params);
                     break;
 
                 case 'getSearchTweets':
-                    this.getSearchTweets(socket, type, params);
+                    response = this.getSearchTweets(params);
                     break;
 
                 case 'getUserslookup':
-                    this.getUserslookup(socket, type, params);
+                    response = this.getUserslookup(params);
                     break;
 
                 case 'getUserTimeline':
-                    this.getUserTimeline(socket, type, params);
+                    response = this.getUserTimeline(params);
                     break;
 
                 case 'getTrendsPlace':
-                    this.getTrendsPlace(socket, type, params);
+                    this.getTrendsPlace(params);
                     break;
 
                 case 'postTweet':
-                    this.postTweet(socket, type, params);
+                    response = this.postTweet(params);
                     break;
                     
                 case 'getOauth2Token':
-                    this.getOauth2Token(socket, type, params);
+                    response = this.getOauth2Token(params);
                     break;
             }
+            this.wsManager.send(socket, this.moduleName, { action, response })
+    
         } catch (error) {
-            this.handleError(socket, type, error)
+          this.handleError(socket, action, error)
         }
-
     }
 
-    async getFollowersList(socket, type, params) {
+    handleError(socket, action, error) {
+        const response = {
+            'object': 'error',
+            'data': error || error.response || error.response.data || error.response.body || error.message || error,
+        };
+        this.wsManager.send(socket, this.moduleName, { action, response })
+    }
+
+    async getFollowersList(params) {
         try {
             const { screen_name } = params;
 
@@ -95,13 +115,13 @@ class CoCreateDataTwitter {
                 'data': results.users,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
     }
 
-    async getUsersShow(socket, type, params) {
+    async getUsersShow(params) {
         try {
             const { screen_name, user_id } = params
 
@@ -111,13 +131,13 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
     }
 
-    async getSearchUser(socket, type, params) {
+    async getSearchUser(params) {
         try {
             const { query: q } = params;
 
@@ -127,13 +147,13 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
     }
 
-    async getFriendsList(socket, type, params) {
+    async getFriendsList(params) {
         try {
             const { screen_name } = params;
 
@@ -143,15 +163,15 @@ class CoCreateDataTwitter {
                 'data': results.users,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
     }
 
 
 
-    async getSearchTweets(socket, type, params) {
+    async getSearchTweets(params) {
         try {
             const { query: q } = params;
 
@@ -161,13 +181,13 @@ class CoCreateDataTwitter {
                 'data': results.statuses,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
     }
 
-    async getUserslookup(socket, type, params) {
+    async getUserslookup(params) {
         try {
             const { screen_name, user_id } = params;
 
@@ -177,13 +197,13 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
     }
 
-    async getUserTimeline(socket, type, params) {
+    async getUserTimeline(params) {
         try {
             const { screen_name, user_id } = params;
 
@@ -193,14 +213,13 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
-
     }
 
-    async getTrendsPlace(socket, type, params) {
+    async getTrendsPlace(params) {
         try {
             const { id } = params;
 
@@ -210,14 +229,14 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
     }
 
 
-    async postTweet(socket, type, params) {
+    async postTweet(params) {
         try {
             const { status } = params;
             const { data: results } = await client.post("statuses/update", { status });
@@ -226,15 +245,13 @@ class CoCreateDataTwitter {
                 'data': results,
             };
 
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
-
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
-
     }
 
-    async getOauth2Token(socket, type, params) {
+    async getOauth2Token(params) {
         try {
               const { consumer_key, consumer_secret } = params;
             
@@ -257,22 +274,12 @@ class CoCreateDataTwitter {
                 'data': results,
             };
             
-            api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
-
+            return response
         } catch (error) {
-            this.handleError(socket, type, error)
+            return response
         }
-
     }
     
-    handleError(socket, type, error) {
-        const response = {
-            'object': 'error',
-            'data': error.message || error,
-        };
-        api.send_response(this.wsManager, socket, { type, response }, this.moduleName);
-    }
-
 }//end Class 
 
 module.exports = CoCreateDataTwitter;
