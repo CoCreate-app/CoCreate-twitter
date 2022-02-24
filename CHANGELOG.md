@@ -1,3 +1,11 @@
+## [1.3.2](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.1...v1.3.2) (2022-02-24)
+
+
+### Bug Fixes
+
+* CoCreate.config replace CoCreate.app with * ([37bf0f1](https://github.com/CoCreate-app/CoCreate-twitter/commit/37bf0f15a855a25750d8398f8890837777d5d61a))
+* get environemt and keys using dot notation ([f21bfe1](https://github.com/CoCreate-app/CoCreate-twitter/commit/f21bfe1c9a97eee9f1169daf33deff62ef53fe2b))
+
 ## [1.3.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.0...v1.3.1) (2022-02-16)
 
 
