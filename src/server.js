@@ -12,13 +12,13 @@ let client;
 class CoCreateDataTwitter {
     constructor(wsManager) {
         this.wsManager = wsManager;
-        this.moduleName = "twitter";
+        this.name = "twitter";
         this.init();
     }
 
     init() {
         if (this.wsManager) {
-            this.wsManager.on(this.moduleName, (socket, data) => this.sendTwitter(socket, data));
+            this.wsManager.on(this.name, (socket, data) => this.sendTwitter(socket, data));
         }
     }
 
@@ -29,17 +29,17 @@ class CoCreateDataTwitter {
         let twitter = false;
     
         try {
-			let org = await api.getOrg(data, this.moduleName);
+			let org = await api.getOrg(data, this.name);
 			if (params.environment){
 				environment = params['environment'];
 				delete params['environment'];  
 			} else {
-			  	environment = org.apis[this.moduleName].environment;
+			  	environment = org.apis[this.name].environment;
 			}
             const { consumer_key, consumer_secret, access_token, access_token_secret } = params;
             twitter = new Twitter({ consumer_key, consumer_secret, access_token, access_token_secret });
         }catch(e){
-            console.log(this.moduleName+" : Error Connect to api",e)
+            console.log(this.name+" : Error Connect to api",e)
             return false;
         }
 
@@ -86,7 +86,7 @@ class CoCreateDataTwitter {
                     response = this.getOauth2Token(params);
                     break;
             }
-            this.wsManager.send(socket, this.moduleName, { action, response })
+            this.wsManager.send(socket, this.name, { action, response })
     
         } catch (error) {
           this.handleError(socket, action, error)
@@ -98,7 +98,7 @@ class CoCreateDataTwitter {
             'object': 'error',
             'data': error || error.response || error.response.data || error.response.body || error.message || error,
         };
-        this.wsManager.send(socket, this.moduleName, { action, response })
+        this.wsManager.send(socket, this.name, { action, response })
     }
 
     async getFollowersList(params) {

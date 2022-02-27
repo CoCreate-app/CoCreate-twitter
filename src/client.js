@@ -18,5 +18,5 @@ const CoCreateTwitter = {
 
 api.init({
 	name: CoCreateTwitter.name, 
-	module:	CoCreateTwitter,
+	component:	CoCreateTwitter,
 });
