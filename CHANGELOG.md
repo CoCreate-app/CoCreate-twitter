@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.3...v1.3.4) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([3534eeb](https://github.com/CoCreate-app/CoCreate-twitter/commit/3534eeb9a62941683aa62033abf6a4f911516ec0))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.2...v1.3.3) (2022-02-27)
 
 
