@@ -1,3 +1,11 @@
+## [1.3.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.4...v1.3.5) (2022-05-19)
+
+
+### Bug Fixes
+
+* get orgId from socketInfo ([3a861a9](https://github.com/CoCreate-app/CoCreate-twitter/commit/3a861a91d166a7e103d5695e12daabe0674bec43))
+* update document_id on link index.css ([06a41d5](https://github.com/CoCreate-app/CoCreate-twitter/commit/06a41d572bf04206b1f77a937cf99f0348680a7c))
+
 ## [1.3.4](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.3...v1.3.4) (2022-05-06)
 
 
