@@ -1,3 +1,11 @@
+## [1.3.7](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.6...v1.3.7) (2022-06-12)
+
+
+### Bug Fixes
+
+* update dependencies ([b74dbfc](https://github.com/CoCreate-app/CoCreate-twitter/commit/b74dbfcc67cc5d892f629c92c3461342d9e2153c))
+* update docs css document_id ([7e19998](https://github.com/CoCreate-app/CoCreate-twitter/commit/7e199989b6385ccf44f47fd3c5de8aaa9354df92))
+
 ## [1.3.6](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.5...v1.3.6) (2022-05-23)
 
 
