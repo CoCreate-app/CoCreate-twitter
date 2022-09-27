@@ -86,7 +86,7 @@ class CoCreateDataTwitter {
                     response = this.getOauth2Token(params);
                     break;
             }
-            this.wsManager.send(socket, this.name, { action, response }, socketInfo)
+            this.wsManager.send(socket, this.name, { action, response })
     
         } catch (error) {
           this.handleError(socket, action, error)
@@ -98,7 +98,7 @@ class CoCreateDataTwitter {
             'object': 'error',
             'data': error || error.response || error.response.data || error.response.body || error.message || error,
         };
-        this.wsManager.send(socket, this.name, { action, response }, socketInfo)
+        this.wsManager.send(socket, this.name, { action, response })
     }
 
     async getFollowersList(params) {
