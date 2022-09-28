@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.9...v1.4.0) (2022-09-28)
+
+
+### Features
+
+* config is accessible from socket.config ([afac9d1](https://github.com/CoCreate-app/CoCreate-twitter/commit/afac9d16a2d831699742a58d3bc8dd200770a952))
+
 ## [1.3.9](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.3.8...v1.3.9) (2022-09-01)
 
 
