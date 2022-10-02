@@ -1,3 +1,10 @@
+## [1.4.8](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.7...v1.4.8) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([94eb613](https://github.com/CoCreate-app/CoCreate-twitter/commit/94eb61316c8a75e6aaf36d47cb1372bc2c3db68d))
+
 ## [1.4.7](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.6...v1.4.7) (2022-10-01)
 
 
