@@ -1,3 +1,10 @@
+## [1.4.9](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.8...v1.4.9) (2022-10-02)
+
+
+### Bug Fixes
+
+* minor bug fixes ([f3bed0f](https://github.com/CoCreate-app/CoCreate-twitter/commit/f3bed0f83e0eaeede2ff7ce06e716dcfbb84055f))
+
 ## [1.4.8](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.7...v1.4.8) (2022-10-02)
 
 
