@@ -1,3 +1,10 @@
+## [1.4.12](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.11...v1.4.12) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([49f5669](https://github.com/CoCreate-app/CoCreate-twitter/commit/49f56690e23274808be7363c906d478a0789aefc))
+
 ## [1.4.11](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.10...v1.4.11) (2022-11-21)
 
 
