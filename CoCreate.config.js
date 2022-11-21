@@ -10,7 +10,7 @@ module.exports = {
             "collection": "files",
             "document_id": "603abe9424dfaa1830fd6bf9",
             "key": "src",
-            "data":{
+            "document": {
                 "name": "index.html",
                 "path": "/docs/twitter/index.html",
                 "domains": [
