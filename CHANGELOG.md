@@ -1,3 +1,10 @@
+## [1.4.13](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.12...v1.4.13) (2022-11-21)
+
+
+### Bug Fixes
+
+* @cocreate/docs bug fix ([167623c](https://github.com/CoCreate-app/CoCreate-twitter/commit/167623cd044357cb96478ec4fc153a8c414f20e1))
+
 ## [1.4.12](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.11...v1.4.12) (2022-11-21)
 
 
