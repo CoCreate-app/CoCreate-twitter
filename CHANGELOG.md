@@ -1,3 +1,11 @@
+## [1.4.14](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.13...v1.4.14) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([983e6e1](https://github.com/CoCreate-app/CoCreate-twitter/commit/983e6e1e0a39ec2122ae795ef9b1c08077c5e723))
+* workflow docs ([c2da618](https://github.com/CoCreate-app/CoCreate-twitter/commit/c2da618c48e5ef5d40aad4b384fcfc0090a134a8))
+
 ## [1.4.13](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.12...v1.4.13) (2022-11-21)
 
 
