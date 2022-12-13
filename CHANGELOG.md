@@ -1,3 +1,10 @@
+## [1.4.30](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.29...v1.4.30) (2022-12-13)
+
+
+### Bug Fixes
+
+* removed un used devDependencies ([969ec94](https://github.com/CoCreate-app/CoCreate-twitter/commit/969ec944afca5374d56d22765c6a972bf9617419))
+
 ## [1.4.29](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.28...v1.4.29) (2022-12-13)
 
 
