@@ -1,3 +1,10 @@
+## [1.4.31](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.30...v1.4.31) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([c068c22](https://github.com/CoCreate-app/CoCreate-twitter/commit/c068c224a988e8f2eadb1cd24c7424903660f2df))
+
 ## [1.4.30](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.29...v1.4.30) (2022-12-13)
 
 
