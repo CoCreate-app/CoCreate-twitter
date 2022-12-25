@@ -1,3 +1,11 @@
+## [1.4.37](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.36...v1.4.37) (2022-12-25)
+
+
+### Bug Fixes
+
+* bump dependencies ([020c230](https://github.com/CoCreate-app/CoCreate-twitter/commit/020c230f6faab3ca41dcec54e39d84badd26a722))
+* bumpcdn to 1.34.4 ([cd0dc11](https://github.com/CoCreate-app/CoCreate-twitter/commit/cd0dc11b4a4431baa0ff6ae35a7fe72aa71e9c72))
+
 ## [1.4.36](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.35...v1.4.36) (2022-12-23)
 
 
