@@ -1,3 +1,10 @@
+## [1.4.40](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.39...v1.4.40) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([6ad2f16](https://github.com/CoCreate-app/CoCreate-twitter/commit/6ad2f167dff47ac84a6e74427aaaa0f7b77d44b1))
+
 ## [1.4.39](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.38...v1.4.39) (2022-12-29)
 
 
