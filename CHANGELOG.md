@@ -1,3 +1,10 @@
+## [1.4.42](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.41...v1.4.42) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([9a8b911](https://github.com/CoCreate-app/CoCreate-twitter/commit/9a8b9116446fe9203eb8a47a709865c58f188789))
+
 ## [1.4.41](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.40...v1.4.41) (2022-12-31)
 
 
