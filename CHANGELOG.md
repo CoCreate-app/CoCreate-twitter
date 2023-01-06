@@ -1,3 +1,11 @@
+## [1.4.44](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.43...v1.4.44) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump dependencies, worklow [@v3](https://github.com/v3) ([e83a0be](https://github.com/CoCreate-app/CoCreate-twitter/commit/e83a0be22449b6aab3eae8448742b10e6663ad63))
+* edit in github btn styles ([e9b7bf0](https://github.com/CoCreate-app/CoCreate-twitter/commit/e9b7bf01f02b73ba7dcaa04cf1142db8aeb96be7))
+
 ## [1.4.43](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.42...v1.4.43) (2023-01-05)
 
 
