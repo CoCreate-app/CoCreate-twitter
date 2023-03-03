@@ -1,8 +1,8 @@
 import api from '@cocreate/api'
 
-const CoCreateTwitter = {
+api.init({
     name: 'twitter',
-    actions: {
+    endPoints: {
         getFollowersList: {},
         getUsersShow: {},
         getSearchUser: {},
@@ -14,9 +14,4 @@ const CoCreateTwitter = {
         postTweet: {},
         getOauth2Token: {}
     }
-};
-
-api.init({
-	name: CoCreateTwitter.name, 
-	component:	CoCreateTwitter,
 });
