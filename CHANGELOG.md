@@ -1,3 +1,10 @@
+## [1.4.54](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.53...v1.4.54) (2023-03-15)
+
+
+### Bug Fixes
+
+* actions object renamed to endPoints ([2160566](https://github.com/CoCreate-app/CoCreate-twitter/commit/216056622e7e1290ea9d6d8430ca4a7eed0dc0f5))
+
 ## [1.4.53](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.52...v1.4.53) (2023-02-01)
 
 
