@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.54...v1.5.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([3853dd8](https://github.com/CoCreate-app/CoCreate-twitter/commit/3853dd8b4eac332ce0d688131c8bc3fca7da6acf))
+
 ## [1.4.54](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.53...v1.4.54) (2023-03-15)
 
 
