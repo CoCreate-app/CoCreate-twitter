@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.5.0...v1.5.1) (2023-03-16)
+
+
+### Bug Fixes
+
+* bump dependencies' ([f9fa5fb](https://github.com/CoCreate-app/CoCreate-twitter/commit/f9fa5fbf3ef66aefa36cecae8df795774bd93b7d))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.4.54...v1.5.0) (2023-03-16)
 
 
