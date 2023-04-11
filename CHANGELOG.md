@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.5.3...v1.5.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([adab11c](https://github.com/CoCreate-app/CoCreate-twitter/commit/adab11c0bc7ea78a670c11983bf1a856345be7b8))
+
 ## [1.5.3](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.5.2...v1.5.3) (2023-03-30)
 
 
