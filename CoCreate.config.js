@@ -12,7 +12,7 @@ module.exports = {
                 "name": "index.html",
                 "path": "/docs/twitter/index.html",
                 "src": "{{./docs/index.html}}",
-                "domains": [
+                "hosts": [
                     "*",
                     "general.cocreate.app"
                 ],
