@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.0...v1.6.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* removed uglifyjs-webpack-plugin ([348dea2](https://github.com/CoCreate-app/CoCreate-twitter/commit/348dea21d9344dce74862d7cf5ec80ced3e9fe93))
+
 # [1.6.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.5.6...v1.6.0) (2023-04-24)
 
 
