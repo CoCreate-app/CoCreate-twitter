@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.2...v1.6.3) (2023-04-24)
+
+
+### Bug Fixes
+
+* workflow node version updated  16 ([b355eb4](https://github.com/CoCreate-app/CoCreate-twitter/commit/b355eb49f2dcd3b46791c493a7d30f96251cd881))
+
 ## [1.6.2](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.1...v1.6.2) (2023-04-24)
 
 
