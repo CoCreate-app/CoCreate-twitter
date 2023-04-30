@@ -1,3 +1,12 @@
+## [1.6.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.4...v1.6.5) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([bdd9d6d](https://github.com/CoCreate-app/CoCreate-twitter/commit/bdd9d6dc08ed4c63375d3f424ba8ef6ff98e8f54))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([1a69da3](https://github.com/CoCreate-app/CoCreate-twitter/commit/1a69da382625567940f1c4af8796f987f83aaa7f))
+* removed toogle fullscreen icons. now using css content ([6939f4e](https://github.com/CoCreate-app/CoCreate-twitter/commit/6939f4e87bd7f5426ad35bb0e2478b09c2c28c8e))
+
 ## [1.6.4](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.3...v1.6.4) (2023-04-24)
 
 
