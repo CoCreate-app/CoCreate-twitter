@@ -1,3 +1,10 @@
+## [1.6.7](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.6...v1.6.7) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([43d0657](https://github.com/CoCreate-app/CoCreate-twitter/commit/43d0657990c09ba8b070354200187528f8962176))
+
 ## [1.6.6](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.5...v1.6.6) (2023-05-01)
 
 
