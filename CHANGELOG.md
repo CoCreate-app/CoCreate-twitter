@@ -1,3 +1,10 @@
+## [1.6.6](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.5...v1.6.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([ba8fdad](https://github.com/CoCreate-app/CoCreate-twitter/commit/ba8fdad999b2d938d71f8b68b1bffe5f66495840))
+
 ## [1.6.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.4...v1.6.5) (2023-04-30)
 
 
