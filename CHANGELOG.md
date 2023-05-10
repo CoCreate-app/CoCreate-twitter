@@ -1,3 +1,10 @@
+## [1.6.9](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.8...v1.6.9) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([e20679c](https://github.com/CoCreate-app/CoCreate-twitter/commit/e20679c23d252d24314439ba8a96d89812934f59))
+
 ## [1.6.8](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.7...v1.6.8) (2023-05-06)
 
 
