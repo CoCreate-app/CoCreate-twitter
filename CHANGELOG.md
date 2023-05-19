@@ -1,3 +1,10 @@
+## [1.6.10](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.9...v1.6.10) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([b8fd28f](https://github.com/CoCreate-app/CoCreate-twitter/commit/b8fd28fede30e1f5761b3f24e0f3239444ecb1cd))
+
 ## [1.6.9](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.8...v1.6.9) (2023-05-10)
 
 
