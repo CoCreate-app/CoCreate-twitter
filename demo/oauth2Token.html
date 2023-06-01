@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Twitter</title>
 
-<head>
-    <title>Twitter</title>
+        <style type="text/css">
+            .template {
+                display: none;
+            }
 
-    <style type="text/css">
-        .template {
-            display: none
-        }
+            .btnsubmit {
+                margin: 25px;
+                border-radius: 10px;
+                font-size: 18px;
+                font-family: "Cookie", cursive;
+                cursor: pointer;
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
 
-        .btnsubmit {
-            margin: 25px;
-            border-radius: 10px;
-            font-size: 18px;
-            font-family: 'Cookie', cursive;
-            cursor: pointer;
-        }
-    </style>
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
+    <body>
+        <h1>Get Oauth2 Token : -</h1>
 
-<body>
+        <form>
+            consumer_key:
+            <input
+                twitter="getOauth2Token.consumer_key"
+                value="hOugAN32rGsFldgxqYyJIJDTH" />
+            consumer_secret:
+            <input
+                twitter="getOauth2Token.consumer_secret"
+                value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1" />
+            access_token :
+            <input
+                twitter="getOauth2Token.access_token"
+                value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq" />
+            access_token_secret :
+            <input
+                twitter="getOauth2Token.access_token_secret"
+                value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw" />
 
-    <h1>Get Oauth2 Token : -</h1>
+            <br />
+            <br /><br />
+            <button class="btnsubmit" actions="getOauth2Token">
+                Get Oauth2 Token
+            </button>
+        </form>
 
-    <form>
-        consumer_key: <input twitter="getOauth2Token.consumer_key" value="hOugAN32rGsFldgxqYyJIJDTH"> consumer_secret: <input twitter="getOauth2Token.consumer_secret" value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1"> access_token :
-        <input twitter="getOauth2Token.access_token" value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq"> access_token_secret : <input twitter="getOauth2Token.access_token_secret" value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw">
-
-        <br/> <br/><br/>
-        <button class="btnsubmit" actions='getOauth2Token'>Get Oauth2 Token</button>
-    </form>
-
-    <div template_id="getOauth2Token">
-        <h4> Oauth2 Token :- </h4>
-        <div style=" margin:10px;">
-            <p class=" margin-right:10px" value=" token_type: {{data.token_type}}">token_type: </p>
-            <p class="margin-right:10px" value="access_token: {{data.access_token}}">access_token:</p>
+        <div template_id="getOauth2Token">
+            <h4>Oauth2 Token :-</h4>
+            <div style="margin: 10px">
+                <p
+                    class="margin-right:10px"
+                    value=" token_type: {{data.token_type}}">
+                    token_type:
+                </p>
+                <p
+                    class="margin-right:10px"
+                    value="access_token: {{data.access_token}}">
+                    access_token:
+                </p>
+            </div>
         </div>
-    </div>
+    </body>
 
-</body>
+    <!--CoCreateJS-->
+    <!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js"  ></script>-->
 
-
-
-
-<!--CoCreateJS-->
-<!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-<!--CoCreate Plugins-->
-<script src="../src/CoCreate-twitter.js"></script>
-
-
+    <!--CoCreate Plugins-->
+    <script src="../src/CoCreate-twitter.js"></script>
 </html>

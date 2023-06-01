@@ -1,63 +1,80 @@
-
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Twitter</title>
 
-<head>
-    <title>Twitter</title>
+        <style type="text/css">
+            .template {
+                display: none;
+            }
+            .btnsubmit {
+                margin: 25px;
+                border-radius: 10px;
+                font-size: 18px;
+                font-family: "Cookie", cursive;
+                cursor: pointer;
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
 
-    <style type="text/css">
-        .template {
-            display: none
-        }
-        .btnsubmit {
-            margin: 25px;
-            border-radius: 10px;
-            font-size: 18px;
-            font-family: 'Cookie', cursive;
-            cursor: pointer;
-        }
-    </style>
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
+    <body>
+        <h1>Twitter User Timeline : -</h1>
 
-<body>
+        <form>
+            consumer_key:
+            <input
+                twitter="getUserTimeline.consumer_key"
+                value="hOugAN32rGsFldgxqYyJIJDTH" />
+            consumer_secret:
+            <input
+                twitter="getUserTimeline.consumer_secret"
+                value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1" />
+            access_token :
+            <input
+                twitter="getUserTimeline.access_token"
+                value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq" />
+            access_token_secret :
+            <input
+                twitter="getUserTimeline.access_token_secret"
+                value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw" />
+            <br />
+            <br /><br />
 
-    <h1>Twitter User Timeline : -</h1>
-    
-    <form>
-        consumer_key: <input twitter="getUserTimeline.consumer_key" value="hOugAN32rGsFldgxqYyJIJDTH">
-        consumer_secret: <input twitter="getUserTimeline.consumer_secret" value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1">
-        access_token : <input twitter="getUserTimeline.access_token" value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq">
-        access_token_secret : <input twitter="getUserTimeline.access_token_secret" value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw">
-        <br/> <br/><br/>
+            Screen Name:
+            <input twitter="getUserTimeline.screen_name" value="noradio" /> User
+            id: <input twitter="getUserTimeline.user_id" value="12345" />
+            <br />
+            <button class="btnsubmit" actions="getUserTimeline">
+                Twitter User Timeline
+            </button>
+        </form>
 
-        Screen Name: <input twitter="getUserTimeline.screen_name" value="noradio">
-        User id: <input twitter="getUserTimeline.user_id" value="12345">
-        <br/>
-        <button class="btnsubmit" actions='getUserTimeline'>Twitter User Timeline</button>
-    </form>
-
-    <div template_id="getUserTimeline">
-        <h4>Twitter User Timeline :- </h4>
-        <div class="template margin:10px " value="{{data.id}}" render-array="data">
-              <p class="margin-right:10px" value="{{data.text}}"></p>
-                 <p class="margin-right:10px" value="created_at : {{data.created_at}}"></p>
-                retweeted_status.text : <p class="margin-right:10px" value="{{data.retweeted_status.text}}"></p>
-                <p class="margin-right:10px" value="created_at : {{data.retweeted_status.created_at}}"></p>
-                <hr/>
+        <div template_id="getUserTimeline">
+            <h4>Twitter User Timeline :-</h4>
+            <div
+                class="template margin:10px"
+                value="{{data.id}}"
+                render-array="data">
+                <p class="margin-right:10px" value="{{data.text}}"></p>
+                <p
+                    class="margin-right:10px"
+                    value="created_at : {{data.created_at}}"></p>
+                retweeted_status.text :
+                <p
+                    class="margin-right:10px"
+                    value="{{data.retweeted_status.text}}"></p>
+                <p
+                    class="margin-right:10px"
+                    value="created_at : {{data.retweeted_status.created_at}}"></p>
+                <hr />
+            </div>
         </div>
-    </div>
+    </body>
 
-</body>
+    <!--CoCreateJS-->
+    <!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js"  ></script>-->
 
-
-
-
-<!--CoCreateJS-->
-<!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-<!--CoCreate Plugins-->
-<script src="../src/CoCreate-twitter.js"></script>
-
-
+    <!--CoCreate Plugins-->
+    <script src="../src/CoCreate-twitter.js"></script>
 </html>

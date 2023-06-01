@@ -1,57 +1,65 @@
-
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Twitter</title>
 
-<head>
-    <title>Twitter</title>
+        <style type="text/css">
+            .template {
+                display: none;
+            }
+            .list {
+                display: inline-grid;
+                grid-gap: 30px;
+                margin: 30px 50px;
+            }
+            .list > li {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
 
-    <style type="text/css">
-        .template {
-            display: none
+    <body>
+        <h1>List of API - Twitter</h1>
+
+        <ul class="list">
+            <li onclick="navigate('followersList')">
+                Go to Twitter Followers List
+            </li>
+            <li onclick="navigate('searchUsers')">
+                Go to Twitter Search Users
+            </li>
+            <li onclick="navigate('friendsList')">
+                Go to Twitter Friends List
+            </li>
+            <li onclick="navigate('searchTweets')">
+                Go to Twitter Search Tweets
+            </li>
+            <li onclick="navigate('userShow')">Go to Twitter User Show</li>
+            <li onclick="navigate('usersLookup')">
+                Go to Twitter Users Lookup
+            </li>
+            <li onclick="navigate('userTimeline')">
+                Go to Twitter User Timeline
+            </li>
+            <li onclick="navigate('trendPlaces')">
+                Go to Twitter Trends Place
+            </li>
+            <li onclick="navigate('postTweet')">Go to Post Tweet</li>
+            <li onclick="navigate('oauth2Token')">
+                Go to Twitter Oauth2 Token
+            </li>
+        </ul>
+    </body>
+
+    <script>
+        function navigate(name) {
+            window.location.href = `../demo/${name}.html`;
         }
-        .list {
-            display: inline-grid;
-            grid-gap: 30px;
-            margin: 30px 50px;
-        }
-        .list > li {
-            text-decoration: underline;
-            cursor: pointer;
-        }
-    </style>
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
+    </script>
 
-<body>
-
-    <h1>List of API - Twitter</h1>
-    
-    <ul class="list" >
-        <li onclick="navigate('followersList')">Go to Twitter Followers List</li>
-        <li onclick="navigate('searchUsers')">Go to Twitter Search Users</li>
-        <li onclick="navigate('friendsList')">Go to Twitter Friends List</li>
-        <li onclick="navigate('searchTweets')">Go to Twitter Search Tweets</li>
-        <li onclick="navigate('userShow')">Go to Twitter User Show</li>
-        <li onclick="navigate('usersLookup')">Go to Twitter Users Lookup</li>
-        <li onclick="navigate('userTimeline')">Go to Twitter User Timeline</li>
-        <li onclick="navigate('trendPlaces')">Go to Twitter Trends Place</li>
-        <li onclick="navigate('postTweet')">Go to  Post Tweet</li>
-        <li onclick="navigate('oauth2Token')">Go to Twitter Oauth2 Token</li>
-    </div>
-
-</body>
-
-
-<script>
-    function navigate(name){
-        window.location.href = `../demo/${name}.html`;
-
-    }
-</script>
-
-<!--CoCreateJS-->
-<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
-<!-- <script src="../dist/CoCreate-twitter.js"></script> -->
-
-
+    <!--CoCreateJS-->
+    <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
+    <!-- <script src="../dist/CoCreate-twitter.js"></script> -->
 </html>

@@ -1,62 +1,71 @@
-
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Twitter</title>
 
-<head>
-    <title>Twitter</title>
+        <style type="text/css">
+            .template {
+                display: none;
+            }
+            .btnsubmit {
+                margin: 25px;
+                border-radius: 10px;
+                font-size: 18px;
+                font-family: "Cookie", cursive;
+                cursor: pointer;
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
 
-    <style type="text/css">
-        .template {
-            display: none
-        }
-        .btnsubmit {
-            margin: 25px;
-            border-radius: 10px;
-            font-size: 18px;
-            font-family: 'Cookie', cursive;
-            cursor: pointer;
-        }
-    </style>
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
+    <body>
+        <h1>Twitter Post Tweet :-</h1>
 
-<body>
+        <form>
+            consumer_key:
+            <input
+                twitter="postTweet.consumer_key"
+                value="hOugAN32rGsFldgxqYyJIJDTH" />
+            consumer_secret:
+            <input
+                twitter="postTweet.consumer_secret"
+                value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1" />
+            access_token :
+            <input
+                twitter="postTweet.access_token"
+                value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq" />
+            access_token_secret :
+            <input
+                twitter="postTweet.access_token_secret"
+                value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw" />
+            <br />
+            <br /><br />
 
-    <h1>Twitter Post Tweet :-</h1>
-    
-    <form>
-        consumer_key: <input twitter="postTweet.consumer_key" value="hOugAN32rGsFldgxqYyJIJDTH">
-        consumer_secret: <input twitter="postTweet.consumer_secret" value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1">
-        access_token : <input twitter="postTweet.access_token" value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq">
-        access_token_secret : <input twitter="postTweet.access_token_secret" value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw">
-        <br/> <br/><br/>
+            text or status:
+            <input twitter="postTweet.status" value="twitterdev" />
+            <br />
+            <button class="btnsubmit" actions="postTweet">Post Tweet</button>
+        </form>
 
-        text or status: <input twitter="postTweet.status" value="twitterdev">
-        <br/>
-        <button class="btnsubmit"  actions='postTweet'>Post Tweet</button>
-    </form>
-
-    <div template_id="postTweet">
-        <h4>Post Tweet- </h4>
-        <div class=" margin:10px " value="{{data.id}}" >
-            <div>
-               <h3 class="margin-right:10px" value="id: - {{data.id}}"></h3>
-                <br/>
-                <h3 class="margin-right:10px" value="created_at:- {{data.created_at}}"></h3>
+        <div template_id="postTweet">
+            <h4>Post Tweet-</h4>
+            <div class="margin:10px" value="{{data.id}}">
+                <div>
+                    <h3
+                        class="margin-right:10px"
+                        value="id: - {{data.id}}"></h3>
+                    <br />
+                    <h3
+                        class="margin-right:10px"
+                        value="created_at:- {{data.created_at}}"></h3>
+                </div>
             </div>
         </div>
-    </div>
+    </body>
 
-</body>
+    <!--CoCreateJS-->
+    <!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js"  ></script>-->
 
-
-
-
-<!--CoCreateJS-->
-<!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-<!--CoCreate Plugins-->
-<script src="../dist/CoCreate-twitter.js"></script>
-
-
+    <!--CoCreate Plugins-->
+    <script src="../dist/CoCreate-twitter.js"></script>
 </html>

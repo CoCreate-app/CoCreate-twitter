@@ -1,64 +1,85 @@
-
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Twitter</title>
 
-<head>
-    <title>Twitter</title>
+        <style type="text/css">
+            .template {
+                display: none;
+            }
+            .btnsubmit {
+                margin: 25px;
+                border-radius: 10px;
+                font-size: 18px;
+                font-family: "Cookie", cursive;
+                cursor: pointer;
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
 
-    <style type="text/css">
-        .template {
-            display: none
-        }
-        .btnsubmit {
-            margin: 25px;
-            border-radius: 10px;
-            font-size: 18px;
-            font-family: 'Cookie', cursive;
-            cursor: pointer;
-        }
-    </style>
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
+    <body>
+        <h1>Twitter Search Tweets :-</h1>
 
-<body>
+        <form>
+            consumer_key:
+            <input
+                twitter="getSearchTweets.consumer_key"
+                value="hOugAN32rGsFldgxqYyJIJDTH" />
+            consumer_secret:
+            <input
+                twitter="getSearchTweets.consumer_secret"
+                value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1" />
+            access_token :
+            <input
+                twitter="getSearchTweets.access_token"
+                value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq" />
+            access_token_secret :
+            <input
+                twitter="getSearchTweets.access_token_secret"
+                value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw" />
+            <br />
+            <br /><br />
 
-    <h1>Twitter Search Tweets :- </h1>
-    
-    <form>
-        consumer_key: <input twitter="getSearchTweets.consumer_key" value="hOugAN32rGsFldgxqYyJIJDTH">
-        consumer_secret: <input twitter="getSearchTweets.consumer_secret" value="OSoVFrQxSk25OioMQZt77X7JOp95RE3HEVYh8pmnGpCgOa1rW1">
-        access_token : <input twitter="getSearchTweets.access_token" value="1314075796005253120-KG0SdKvc0eJw3efeTy3cl9fP3zpOdq">
-        access_token_secret : <input twitter="getSearchTweets.access_token_secret" value="lKJVhPEK4uNKq4lDXPr3bklGmlHEFyAbGI2qFOisTIzRw">
-        <br/> <br/><br/>
+            Search Query:
+            <input twitter="getSearchTweets.query" value="twitterdev" />
+            <br />
+            <button class="btnsubmit" actions="getSearchTweets">
+                Twitter Search Tweets
+            </button>
+        </form>
 
-
-        Search Query: <input twitter="getSearchTweets.query" value="twitterdev">
-        <br/>
-        <button class="btnsubmit" actions='getSearchTweets'>Twitter Search Tweets</button>
-    </form>
-
-    <div template_id="getSearchTweets">
-        <h4>Twitter Search Tweets :- </h4>
-        <div class="template margin:10px " value="{{data.id}}" render-array="data">
-            <div style="display:flex ; align-items:center; width:100% ;flex-wrap:wrap ">
-                <img class="margin-right:10px" src="{{data.user.profile_image_url_https}}" />
-                <h3 class="margin-right:10px" value="{{data.user.name}}">name></h3>
-                <p style="flex-basis: 100%; height: 0;" value="Tweet :- {{data.text}}"></p>
+        <div template_id="getSearchTweets">
+            <h4>Twitter Search Tweets :-</h4>
+            <div
+                class="template margin:10px"
+                value="{{data.id}}"
+                render-array="data">
+                <div
+                    style="
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        flex-wrap: wrap;
+                    ">
+                    <img
+                        class="margin-right:10px"
+                        src="{{data.user.profile_image_url_https}}" />
+                    <h3 class="margin-right:10px" value="{{data.user.name}}">
+                        name
+                    </h3>
+                    <p
+                        style="flex-basis: 100%; height: 0"
+                        value="Tweet :- {{data.text}}"></p>
+                </div>
+                <hr />
             </div>
-            <hr/>
         </div>
-    </div>
+    </body>
 
-</body>
+    <!--CoCreateJS-->
+    <!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js"  ></script>-->
 
-
-
-
-<!--CoCreateJS-->
-<!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-<!--CoCreate Plugins-->
-<script src="../dist/CoCreate-twitter.js"></script>
-
-
+    <!--CoCreate Plugins-->
+    <script src="../dist/CoCreate-twitter.js"></script>
 </html>
