@@ -1,3 +1,10 @@
+## [1.6.12](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.11...v1.6.12) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([645a5ef](https://github.com/CoCreate-app/CoCreate-twitter/commit/645a5ef59cca9a19c22e401fe3f21f887587a0f9))
+
 ## [1.6.11](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.10...v1.6.11) (2023-05-21)
 
 
