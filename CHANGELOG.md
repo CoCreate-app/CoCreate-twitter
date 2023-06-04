@@ -1,3 +1,10 @@
+## [1.6.13](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.12...v1.6.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([64dc6ea](https://github.com/CoCreate-app/CoCreate-twitter/commit/64dc6ea02b7e0c1dd65209606e8a0bb42f8a12ef))
+
 ## [1.6.12](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.11...v1.6.12) (2023-06-02)
 
 
