@@ -1,3 +1,11 @@
+## [1.6.14](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.13...v1.6.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([447e0df](https://github.com/CoCreate-app/CoCreate-twitter/commit/447e0dfe18ce697cd0bcc91bfa021c82c3bf1e0d))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([b746532](https://github.com/CoCreate-app/CoCreate-twitter/commit/b7465329198cc067794b47a204318bd6dfcba7af))
+
 ## [1.6.13](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.12...v1.6.13) (2023-06-04)
 
 
