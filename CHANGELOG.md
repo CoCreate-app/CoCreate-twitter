@@ -1,3 +1,10 @@
+## [1.6.15](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.14...v1.6.15) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([d721e05](https://github.com/CoCreate-app/CoCreate-twitter/commit/d721e055e97519550a1b5a6221f63f2d80f770c6))
+
 ## [1.6.14](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.13...v1.6.14) (2023-06-04)
 
 
