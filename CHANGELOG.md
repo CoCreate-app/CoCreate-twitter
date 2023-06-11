@@ -1,3 +1,10 @@
+## [1.6.20](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.19...v1.6.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([0974fde](https://github.com/CoCreate-app/CoCreate-twitter/commit/0974fded7b7c838918af6e15381ba4357db869eb))
+
 ## [1.6.19](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.18...v1.6.19) (2023-06-11)
 
 
