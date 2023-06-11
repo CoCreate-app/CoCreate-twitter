@@ -1,3 +1,10 @@
+## [1.6.21](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.20...v1.6.21) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([4a70cc1](https://github.com/CoCreate-app/CoCreate-twitter/commit/4a70cc165039a7497047cef9478d68ceb4df0466))
+
 ## [1.6.20](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.19...v1.6.20) (2023-06-11)
 
 
