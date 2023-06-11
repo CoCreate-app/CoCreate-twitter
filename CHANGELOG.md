@@ -1,3 +1,10 @@
+## [1.6.18](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.17...v1.6.18) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([2b8ee24](https://github.com/CoCreate-app/CoCreate-twitter/commit/2b8ee24439730a3647a8cc9d04cc537331cc4ec1))
+
 ## [1.6.17](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.16...v1.6.17) (2023-06-10)
 
 
