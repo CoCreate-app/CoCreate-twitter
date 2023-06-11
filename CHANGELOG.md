@@ -1,3 +1,10 @@
+## [1.6.26](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.25...v1.6.26) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([3808f41](https://github.com/CoCreate-app/CoCreate-twitter/commit/3808f415630d533affcda001f56383bebd963601))
+
 ## [1.6.25](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.24...v1.6.25) (2023-06-11)
 
 
