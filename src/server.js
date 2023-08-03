@@ -27,19 +27,19 @@ class CoCreateDataTwitter {
         let params = data['data'];
         let environment;
         let twitter = false;
-    
+
         try {
-			let org = await api.getOrg(data, this.name);
-			if (params.environment){
-				environment = params['environment'];
-				delete params['environment'];  
-			} else {
-			  	environment = org.apis[this.name].environment;
-			}
+            let org = await api.getOrg(data, this.name);
+            if (params.environment) {
+                environment = params['environment'];
+                delete params['environment'];
+            } else {
+                environment = org.apis[this.name].environment;
+            }
             const { consumer_key, consumer_secret, access_token, access_token_secret } = params;
             twitter = new Twitter({ consumer_key, consumer_secret, access_token, access_token_secret });
-        }catch(e){
-            console.log(this.name+" : Error Connect to api",e)
+        } catch (e) {
+            console.log(this.name + " : Error Connect to api", e)
             return false;
         }
 
@@ -81,15 +81,15 @@ class CoCreateDataTwitter {
                 case 'postTweet':
                     response = this.postTweet(params);
                     break;
-                    
+
                 case 'getOauth2Token':
                     response = this.getOauth2Token(params);
                     break;
             }
-            this.wsManager.send(socket, this.name, { action, response })
-    
+            this.wsManager.send(socket, { method: this.name, action, response })
+
         } catch (error) {
-          this.handleError(socket, action, error)
+            this.handleError(socket, action, error)
         }
     }
 
@@ -98,7 +98,7 @@ class CoCreateDataTwitter {
             'object': 'error',
             'data': error || error.response || error.response.data || error.response.body || error.message || error,
         };
-        this.wsManager.send(socket, this.name, { action, response })
+        this.wsManager.send(socket, { method: this.name, action, response })
     }
 
     async getFollowersList(params) {
@@ -253,33 +253,33 @@ class CoCreateDataTwitter {
 
     async getOauth2Token(params) {
         try {
-              const { consumer_key, consumer_secret } = params;
-            
-              const oauth2TokenURL = "https://api.twitter.com/oauth2/token";
-              const b64Credentials = Buffer.from( consumer_key + ":" + consumer_secret).toString("base64"); 
-              
-              const { data : results } = await axios.post(
+            const { consumer_key, consumer_secret } = params;
+
+            const oauth2TokenURL = "https://api.twitter.com/oauth2/token";
+            const b64Credentials = Buffer.from(consumer_key + ":" + consumer_secret).toString("base64");
+
+            const { data: results } = await axios.post(
                 oauth2TokenURL,
                 "grant_type=client_credentials",
                 {
-                  headers: {
-                    Authorization: "Basic " + b64Credentials,
-                    "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
-                  }
+                    headers: {
+                        Authorization: "Basic " + b64Credentials,
+                        "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
+                    }
                 }
-              );
-              
-              const response = {
+            );
+
+            const response = {
                 'object': 'list',
                 'data': results,
             };
-            
+
             return response
         } catch (error) {
             return response
         }
     }
-    
+
 }//end Class 
 
 module.exports = CoCreateDataTwitter;
@@ -321,24 +321,24 @@ Note:-  In twitter Developer Portal enable Authentication settings and added Cal
 Description: - so when callback URL hit by twitter Site than in fronted implement below logic.
 
 Logic :- function getResponseOauth_token() {
-	const urlParams1 = new URLSearchParams(window.location.search);
-	const oauth_token = urlParams1.get('oauth_token');
-	const oauth_verifier = urlParams1.get('oauth_verifier');
+    const urlParams1 = new URLSearchParams(window.location.search);
+    const oauth_token = urlParams1.get('oauth_token');
+    const oauth_verifier = urlParams1.get('oauth_verifier');
 
 
-	const xhttp = new XMLHttpRequest();
+    const xhttp = new XMLHttpRequest();
 	
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			console.log(this.responseText);		// response oauth_token and oauth_token_secret
-			// Example response oauth_token=6253282-eWudHldSbIaelX7swmsiHImEL4KinwaGloHANdrY&oauth_token_secret=2EEfA6BG5ly3sR3XjE0IBSnlQu4ZrUzPiYTmrkVU&user_id=6253282&screen_name=twitterapi
-		}
-	};
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText);		// response oauth_token and oauth_token_secret
+            // Example response oauth_token=6253282-eWudHldSbIaelX7swmsiHImEL4KinwaGloHANdrY&oauth_token_secret=2EEfA6BG5ly3sR3XjE0IBSnlQu4ZrUzPiYTmrkVU&user_id=6253282&screen_name=twitterapi
+        }
+    };
 
-	//POST https://api.twitter.com/oauth/access_token?oauth_token=qLBVyoAAAAAAx72QAAATZxQWU6P&oauth_verifier=ghLM8lYmAxDbaqL912RZSRjCCEXKDIzx
-	xhttp.open("POST", "https://api.twitter.com/oauth/access_token", true);	
-	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	xhttp.send(`oauth_token=${oauth_token}&oauth_verifier=${oauth_verifier}`);
+    //POST https://api.twitter.com/oauth/access_token?oauth_token=qLBVyoAAAAAAx72QAAATZxQWU6P&oauth_verifier=ghLM8lYmAxDbaqL912RZSRjCCEXKDIzx
+    xhttp.open("POST", "https://api.twitter.com/oauth/access_token", true);	
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send(`oauth_token=${oauth_token}&oauth_verifier=${oauth_verifier}`);
 }
 
 */

@@ -4,8 +4,8 @@ module.exports = {
     "host": "",
     "sources": [
         {
-            "collection": "files",
-            "document": {
+            "array": "files",
+            "object": {
                 "_id": "603abe9424dfaa1830fd6bf9",
                 "name": "index.html",
                 "path": "/docs/twitter/index.html",
