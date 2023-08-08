@@ -108,7 +108,7 @@ class CoCreateDataTwitter {
             const { data: results } = await client.get("followers/list", { // cursor: 1,
                 screen_name,
                 skip_status: true,
-                include_user_entities: "flase"
+                include_user_entities: "false"
             });
             const response = {
                 'object': 'list',
