@@ -1,3 +1,19 @@
+# [1.7.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.29...v1.7.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([f6338b4](https://github.com/CoCreate-app/CoCreate-twitter/commit/f6338b48e27e707614164738a3c1e2975d10fcc7))
+* render-array and render-object attributes renamed to render ([15b0283](https://github.com/CoCreate-app/CoCreate-twitter/commit/15b02838a9209a28ecac146bad831c85667283d1))
+* replace -target -selector ([74aadaa](https://github.com/CoCreate-app/CoCreate-twitter/commit/74aadaaf35a7cbf210e1fcbe68e708dce1815e94))
+* typo in server.js for include_user_entities attribute ([490d224](https://github.com/CoCreate-app/CoCreate-twitter/commit/490d22443914f8e56841e95ec27953e018edd9bd))
+* webpack.config and package.json make use of mode=production instead of process.env ([cb94fef](https://github.com/CoCreate-app/CoCreate-twitter/commit/cb94fef2e4c0b9bef786dc512ef5eab5265bb359))
+
+
+### Features
+
+* name attribute and variable renamed to key ([91b397f](https://github.com/CoCreate-app/CoCreate-twitter/commit/91b397f5952a6fb3ffe6d5506b34972636403176))
+
 ## [1.6.29](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.6.28...v1.6.29) (2023-06-14)
 
 
