@@ -1,3 +1,12 @@
+## [1.8.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.8.0...v1.8.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([784cb89](https://github.com/CoCreate-app/CoCreate-twitter/commit/784cb89af6e84e1c85bdd4ecb0a4f835937ffff6))
+* replace cdn with /dist ([7c9ba7d](https://github.com/CoCreate-app/CoCreate-twitter/commit/7c9ba7d9f5b049a6f8e54e05ceb9a1bf6f923163))
+* update file uploader ([beacf31](https://github.com/CoCreate-app/CoCreate-twitter/commit/beacf31866cb3ee0ebae7ad84cafc52a0dbaa386))
+
 # [1.8.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.7.0...v1.8.0) (2023-08-17)
 
 
