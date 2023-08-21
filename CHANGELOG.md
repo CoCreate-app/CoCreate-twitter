@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.9.0...v1.9.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* bump dependencies ([153a926](https://github.com/CoCreate-app/CoCreate-twitter/commit/153a92693a98964818086f6e4efc168b7914a257))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.8.1...v1.9.0) (2023-08-21)
 
 
