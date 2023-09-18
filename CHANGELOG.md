@@ -1,3 +1,11 @@
+## [1.9.2](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.9.1...v1.9.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([5001489](https://github.com/CoCreate-app/CoCreate-twitter/commit/5001489f2d041f78e53d563231e51820010bdea0))
+* Update CoCreate depndencies to latest versions ([321d695](https://github.com/CoCreate-app/CoCreate-twitter/commit/321d6953623a3efe9f63d649b23a99c2900cf514))
+
 ## [1.9.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.9.0...v1.9.1) (2023-08-21)
 
 
