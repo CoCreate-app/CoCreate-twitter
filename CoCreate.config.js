@@ -8,17 +8,16 @@ module.exports = {
             "object": {
                 "_id": "603abe9424dfaa1830fd6bf9",
                 "name": "index.html",
-                "path": "/docs/twitter/index.html",
+                "path": "/docs/twitter",
+                "pathname": "/docs/twitter/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
                     "*",
                     "general.cocreate.app"
                 ],
-                "directory": "/docs/twitter",
-                "parentDirectory": "{{parentDirectory}}",
+                "directory": "twitter",
                 "content-type": "{{content-type}}",
-                "public": "true",
-                "website_id": "644d4bff8036fb9d1d1fd69c"
+                "public": "true"
             }
         }
     ]
