@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.10.4...v1.10.5) (2023-11-03)
+
+
+### Bug Fixes
+
+* update dependencies to the lates versions ([747905c](https://github.com/CoCreate-app/CoCreate-twitter/commit/747905cad6fba091c865c96aab7bb3a09b623397))
+
 ## [1.10.4](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.10.3...v1.10.4) (2023-10-25)
 
 
