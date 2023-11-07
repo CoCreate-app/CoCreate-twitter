@@ -12,8 +12,7 @@ module.exports = {
                 "pathname": "/docs/twitter/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
-                    "*",
-                    "general.cocreate.app"
+                    "*"
                 ],
                 "directory": "twitter",
                 "content-type": "{{content-type}}",
