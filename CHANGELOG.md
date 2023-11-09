@@ -1,3 +1,11 @@
+## [1.10.6](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.10.5...v1.10.6) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([df28954](https://github.com/CoCreate-app/CoCreate-twitter/commit/df28954f8606fe311a0673d799672e22ff2e487f))
+* update host ([6590e11](https://github.com/CoCreate-app/CoCreate-twitter/commit/6590e111cb19c3b879aee6ae7f179fa898326f2c))
+
 ## [1.10.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.10.4...v1.10.5) (2023-11-03)
 
 
