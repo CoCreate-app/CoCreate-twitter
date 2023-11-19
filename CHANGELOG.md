@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.10.7...v1.11.0) (2023-11-19)
+
+
+### Features
+
+* update dependecies for th latest features and bug fixes ([e8e5631](https://github.com/CoCreate-app/CoCreate-twitter/commit/e8e56313c5458b4bff4e713bef597c5e6060d468))
+
 ## [1.10.7](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.10.6...v1.10.7) (2023-11-12)
 
 
