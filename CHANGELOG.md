@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.11.0...v1.12.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([79d4eb4](https://github.com/CoCreate-app/CoCreate-twitter/commit/79d4eb45e1d3fabf367036a305294354503b7999))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([c4a6b01](https://github.com/CoCreate-app/CoCreate-twitter/commit/c4a6b01860a9ab2830e5c0cb1eba7d530e77d11b))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.10.7...v1.11.0) (2023-11-19)
 
 
