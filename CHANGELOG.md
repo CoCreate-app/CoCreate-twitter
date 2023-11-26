@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.0...v1.13.1) (2023-11-26)
+
+
+### Bug Fixes
+
+* update licensing details ([807bf72](https://github.com/CoCreate-app/CoCreate-twitter/commit/807bf72867eabd46d24a5a5fa8656166f47dfab1))
+
 # [1.13.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.12.0...v1.13.0) (2023-11-25)
 
 
