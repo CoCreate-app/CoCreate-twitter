@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.1...v1.13.2) (2023-12-09)
+
+
+### Bug Fixes
+
+* getOrg() renamed to getOrganization() ([9d3a1e6](https://github.com/CoCreate-app/CoCreate-twitter/commit/9d3a1e669260780d7ae0f25759bac419f5da51a0))
+
 ## [1.13.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.0...v1.13.1) (2023-11-26)
 
 
