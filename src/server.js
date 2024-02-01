@@ -3,9 +3,6 @@
 const axios = require("axios").default;
 const Twitter = require("twit");
 
-
-const api = require('@cocreate/api');
-
 let client;
 
 
@@ -29,7 +26,7 @@ class CoCreateDataTwitter {
         let twitter = false;
 
         try {
-            let org = await api.getOrganization(data, this.name);
+            let org = await this.crud.getOrganization(data, this.name);
             if (params.environment) {
                 environment = params['environment'];
                 delete params['environment'];
