@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.2...v1.13.3) (2024-02-03)
+
+
+### Bug Fixes
+
+*  removed from clinet.js ([544f71c](https://github.com/CoCreate-app/CoCreate-twitter/commit/544f71cf2a5a3f290a8a241bb851be4737bc4e9e))
+
 ## [1.13.2](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.1...v1.13.2) (2023-12-09)
 
 
