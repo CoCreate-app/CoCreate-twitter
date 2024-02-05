@@ -1,3 +1,10 @@
+## [1.13.4](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.3...v1.13.4) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([1e07e23](https://github.com/CoCreate-app/CoCreate-twitter/commit/1e07e238e8f1cf0fc7ec02d912f517954adc9209))
+
 ## [1.13.3](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.2...v1.13.3) (2024-02-03)
 
 
