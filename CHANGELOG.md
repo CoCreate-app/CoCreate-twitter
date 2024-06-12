@@ -1,3 +1,11 @@
+## [1.13.6](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.5...v1.13.6) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([06b5c05](https://github.com/CoCreate-app/CoCreate-twitter/commit/06b5c050e7c4979fbc88311367eac6b98a89ccfb))
+* svg icon class ([c33525c](https://github.com/CoCreate-app/CoCreate-twitter/commit/c33525c9e0b4e49097a30f394322c9662ffabbb7))
+
 ## [1.13.5](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.4...v1.13.5) (2024-04-29)
 
 
