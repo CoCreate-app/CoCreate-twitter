@@ -1,3 +1,16 @@
+# [1.14.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.6...v1.14.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* pretier.config.js and file formating ([c717c40](https://github.com/CoCreate-app/CoCreate-twitter/commit/c717c405beb90b5c93095fdd7a8aaa45dbabc088))
+
+
+### Features
+
+* add prettier.config.js and format files ([a1f6c8b](https://github.com/CoCreate-app/CoCreate-twitter/commit/a1f6c8be218ecf9104801f51441dd9c349b41d7b))
+* add prettier.config.js and format files ([96e5fa7](https://github.com/CoCreate-app/CoCreate-twitter/commit/96e5fa7e4d495c537377cc6a77f3c0970b05ffa1))
+
 ## [1.13.6](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.5...v1.13.6) (2024-06-12)
 
 
