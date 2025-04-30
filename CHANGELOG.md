@@ -1,3 +1,13 @@
+## [1.14.1](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.14.0...v1.14.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([0bb4b72](https://github.com/CoCreate-app/CoCreate-twitter/commit/0bb4b72b20388e157487e46f70d3e13ba17d57f6))
+* update query attributes ([22a97a6](https://github.com/CoCreate-app/CoCreate-twitter/commit/22a97a629bd085fae1034615ec8cad100ed84c4b))
+* updated cocreate modules versions ([2c7fcba](https://github.com/CoCreate-app/CoCreate-twitter/commit/2c7fcbae4088a2c6812a4645f2de5fd05df73c0e))
+* webpack.config and devdependencies ([2c6896f](https://github.com/CoCreate-app/CoCreate-twitter/commit/2c6896f98784d6904e6207390dfb49149e3543f9))
+
 # [1.14.0](https://github.com/CoCreate-app/CoCreate-twitter/compare/v1.13.6...v1.14.0) (2024-11-04)
 
 
